@@ -1,0 +1,15 @@
+:root { font-family: Inter, system-ui; color: #fff; background: linear-gradient(180deg,#2d68ff,#6a34ff); }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.wrap { max-width: 880px; margin: 0 auto; padding: 14px; }
+.topCard,.card { background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.3); border-radius: 16px; padding: 12px; backdrop-filter: blur(8px); }
+.coins { font-size: 1.8rem; font-weight: 700; }
+.tapBtn { width: 100%; font-size: 2rem; border: 0; border-radius: 18px; padding: 18px; background: #ffcf32; color:#342500; font-weight: 900; transform: scale(1); }
+.tapBtn:active { transform: scale(0.96); }
+.notice { min-height: 20px; opacity: 0.9; }
+.grid { margin-top: 12px; display: grid; grid-template-columns: 1fr; gap: 10px; }
+.item { width:100%; text-align:left; margin:6px 0; border:0; border-radius:10px; padding:10px; background:#ffffff26; color:#fff; }
+.item small { display:block; opacity:0.85; }
+.bar { background:#0004; border-radius:999px; height:10px; overflow:hidden; }
+.bar span { display:block; height:100%; background:#50ffa2; }
+@media (min-width: 760px) { .grid { grid-template-columns: repeat(2,1fr);} }
